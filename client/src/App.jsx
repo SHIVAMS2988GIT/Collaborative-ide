@@ -30,7 +30,15 @@ function App() {
   function handleEditorDidMount(editor, monaco) {
     editorRef.current = editor;
     const doc = new Y.Doc();
-    const provider = new WebsocketProvider("ws://localhost:3001", "monaco-demo", doc);
+    // OLD
+// const provider = new WebsocketProvider("ws://localhost:3001", "monaco-demo", doc);
+
+// NEW (Use your Render URL with wss://)
+const provider = new WebsocketProvider(
+  "wss://ide-backend-dpiv.onrender.com",
+  "monaco-demo",
+  doc
+);
     const type = doc.getText("monaco");
     const binding = new MonacoBinding(type, editor.getModel(), new Set([editor]), provider.awareness);
 
