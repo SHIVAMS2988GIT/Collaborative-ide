@@ -43,5 +43,5 @@ It includes a built-in compiler that executes code remotely using a sandboxed AP
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/collaborative-ide.git](https://github.com/YOUR_USERNAME/collaborative-ide.git)
+git clone [https://github.com/SHIVAM2988GIT/collaborative-ide.git](https://github.com/YOUR_USERNAME/collaborative-ide.git)
 cd collaborative-ide
