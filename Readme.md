@@ -5,8 +5,7 @@
 
 **A distributed code editor enabling sub-millisecond collaboration and remote code execution.**
 
-🔗 **Live Demo:** [Click Here to Open App](https://collaborative-ide.vercel.app) *(Replace this with your actual Vercel link)*
-
+🔗 **Live Demo:** [Click Here to Open App](https://collaborative-ide-sandy.vercel.app/) 
 ---
 
 ## 📖 Overview
